@@ -1,0 +1,43 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* Center the button horizontally */
+.btn-primary {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; /* Adjust the border-radius value as needed */
+    font-size: 1rem;
+}
+
+.centered-form {
+    max-height: 500px; /* Adjust the maximum height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    width: 100%; /* Make the container width 100% */
+    padding-right: 15px; /* Add some padding to prevent content from being hidden under the scrollbar */
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+body {
+    background: linear-gradient(to right, #30CFD0, #c43ad6);
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
